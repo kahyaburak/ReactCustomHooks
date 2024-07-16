@@ -2,7 +2,6 @@ import fs from 'node:fs/promises';
 
 import bodyParser from 'body-parser';
 import express from 'express';
-
 const app = express();
 
 app.use(express.static('images'));
